@@ -3,6 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
+
 export const Formation = () => {
   return (
     <section className="formation" id="formation">
@@ -14,7 +15,7 @@ export const Formation = () => {
                 <div className={isVisible ? "animate__animated animate__fadeInLeft" : ""}>
                   <h2>Formación</h2>
                   <p>
-                    2023-2024 Ciclo superior de Desarrollo de Aplicaciones Web (DAW). Este programa de formación técnica orientado a proporcionar una comprensión profunda del desarrollo de aplicaciones web, incluyendo el diseño de interfaces, la programación en el lado del cliente y del servidor, y la gestión de bases de datos.
+                   Universae Fp 2023-2024 Ciclo superior de Desarrollo de Aplicaciones Web (DAW). Este programa de formación técnica orientado a proporcionar una comprensión profunda del desarrollo de aplicaciones web, incluyendo el diseño de interfaces, la programación en el lado del cliente y del servidor, y la gestión de bases de datos.
                   </p>
                   <ul>
                     <li><strong>Temario:</strong> HTML, CSS, JavaScript, React, Node.js, MongoDB, entre otros.</li>

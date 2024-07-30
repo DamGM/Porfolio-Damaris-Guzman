@@ -5,6 +5,9 @@ import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
 import projImg4 from "../assets/img/project-img4.png";
 import projImg5 from "../assets/img/project-img5.png";
+import projImg6 from "../assets/img/project-img6.png";
+import projImg7 from "../assets/img/project-img7.png";
+import projImg8 from "../assets/img/project-img8.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -39,15 +42,26 @@ export const Projects = () => {
     },
     {
       title: "Tecnologías",
-      description: "Design & Development",
-      imgUrl: projImg3,
+      description: "Vue.js",
+      imgUrl: projImg6,
     },
+    {
+      title: "Tecnologías",
+      description: "HTML,CSS, javaScript",
+      imgUrl: projImg7,
+    },
+    {
+      title: "Tecnologías",
+      description: "HTML,CSS, javaScript",
+      imgUrl: projImg8,
+    },
+   
   ];
 
-  // Divide los proyectos en dos grupos
+  // Divide los proyectos en 3 grupos
   const firstProjects = projects.slice(0, 3);
-  const secondProjects = projects.slice(3);
-
+  const secondProjects = projects.slice(3,6);
+  const thirdProjects = projects.slice(6,8);
   return (
     <section className="project" id="projects">
       <Container>
@@ -91,7 +105,14 @@ export const Projects = () => {
                       </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                       <Row> 
+                         {thirdProjects.map((project, index) => (
+                          <ProjectCard
+                            key={index}
+                            {...project}
+                          />
+                        ))}
+                      </Row>  
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>
