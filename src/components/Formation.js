@@ -36,7 +36,7 @@ export const Formation = () => {
                   </p>
                   <ul>
                     <li><strong>Proyecto 1:</strong> Desarrolladora Front-end. Trabajé en la implementación de nuevas funcionalidades para una plataforma de comercio electrónico.</li>
-                    <li><strong>Proyecto 2:</strong> Desarrolladora Full Stack. Participé en el desarrollo y mantenimiento de una aplicación web interna, incluyendo el diseño de la base de datos y la implementación de la lógica de negocio.</li>
+                    <li><strong>Proyecto 2:</strong> Desarrolladora Full Stack. Participé en el desarrollo y mantenimiento de una aplicación web, incluyendo el diseño de la base de datos y la implementación de la lógica de negocio.</li>
                   </ul>
                 </div>
               }

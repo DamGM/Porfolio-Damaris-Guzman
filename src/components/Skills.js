@@ -7,11 +7,11 @@ import css from "../assets/img/css-3.svg";
 import js from "../assets/img/javascript-1.svg";
 import bt from "../assets/img/bootstrap-5-1.svg";
 import figma from "../assets/img/figma-icon.svg";
+import git from "../assets/img/git-icon-logo.svg";
 
 export const Skills = () => {
     const responsive = {
       superLargeDesktop: {
-        // the naming can be any, depends on you.
         breakpoint: { max: 4000, min: 3000 },
         items: 5
       },
@@ -58,6 +58,9 @@ export const Skills = () => {
                               </div>
                               <div className="item">
                                  <img src={figma} alt="Logo" />
+                              </div>
+                              <div className="item">
+                                 <img src={git} alt="Logo" />
                               </div>
                           </Carousel>
                       </div>
