@@ -2,12 +2,12 @@
 👋Soy Dámaris Guzmán, desarrolladora web. Explora los diversos proyectos de creación de aplicaciones web dnámaicas  y responsive. Descubre mis habilidades!💻
 
 # Demo 🎥
-Este repositorio ha sido creado com React
+Este repositorio ha sido creado com React:
 
-react   typescript   boostrap   minimalistic   responsive
+react    typescript    boostrap    minimalistic    responsive
 
 Has click en el siguiente enlace para entrar a la web: 
- [http://localhost:3000](http://localhost:3000) 
+ [visita la web](http://localhost:3000) 
 
 
 
