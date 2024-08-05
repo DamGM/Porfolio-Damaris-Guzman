@@ -7,7 +7,7 @@ Este repositorio ha sido creado com React:
 react    typescript    boostrap    minimalistic    responsive
 
 Has click en el siguiente enlace para entrar a la web: 
- [visita la web](http://localhost:3000) 
+ [visita la web](https://portfolio-damaris.netlify.app)) 
 
 
 
