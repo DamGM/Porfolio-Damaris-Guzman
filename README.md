@@ -1,4 +1,5 @@
-# Bienvenido a mi portfolio!👋Soy Dámaris Guzmán, desarrolladora web. Explora los diversos proyectos de creación de aplicaciones web dnámaicas  y responsive. Descubre mis habilidades!💻
+# Bienvenido a mi portfolio!
+👋Soy Dámaris Guzmán, desarrolladora web. Explora los diversos proyectos de creación de aplicaciones web dnámaicas  y responsive. Descubre mis habilidades!💻
 
 # Demo 🎥
 Este repositorio ha sido creado com React
@@ -22,8 +23,12 @@ Has click en el siguiente enlace para entrar a la web:
 ![Captura de pantalla 2024-08-05 a las 10 26 44](https://github.com/user-attachments/assets/7de8daef-7413-4bfb-9e54-4eaa101a0cd9)
 
 # Secciones 🔖
-Sobre mí
-Proyectos
-Formación
-Skills
+Sobre mí  
+
+Proyectos  
+
+Formación   
+
+Skills  
+
 Contacta
