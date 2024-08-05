@@ -19,6 +19,7 @@ export const Projects = () => {
       title: "Tecnologías",
       description: "HTML, CSS, javaScript",
       imgUrl: projImg1,
+    
     },
     {
       title: "Tecnologías",
@@ -29,6 +30,7 @@ export const Projects = () => {
       title: "Tecnologías",
       description: "React,Boostrap , Supabase",
       imgUrl: projImg3,
+    
     },
     {
       title: "Tecnologías",
