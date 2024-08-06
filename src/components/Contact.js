@@ -34,16 +34,16 @@ export const Contact = () => {
       return;
     }
 
-    const phonePattern = /^\d+$/;
+    const phonePattern = /^\+?\d+$/; // Permitir + al inicio y solo números después
     if (!phonePattern.test(formDetails.phone)) {
-      setStatus({ success: false, message: 'El teléfono solo debe contener números.' });
+      setStatus({ success: false, message: 'El teléfono solo debe contener números y puede empezar con +.' });
       setButtonText("Enviar");
       return;
     }
 
-    const messagePattern = /^[a-zA-Z0-9\s]*$/; // Solo letras, números y espacios
+    const messagePattern = /^[a-zA-Z0-9\s";.!?]*$/; // Permitir letras, números, espacios y ciertos caracteres
     if (!messagePattern.test(formDetails.message)) {
-      setStatus({ success: false, message: 'El mensaje solo debe contener texto y números.' });
+      setStatus({ success: false, message: 'El mensaje solo debe contener texto, números y los caracteres ";.!?' });
       setButtonText("Enviar");
       return;
     }
@@ -116,7 +116,6 @@ export const Contact = () => {
                           value={formDetails.phone} 
                           placeholder="Teléfono" 
                           onChange={(e) => onFormUpdate('phone', e.target.value)} 
-                          pattern="\d+" 
                           title="El teléfono solo debe contener números." 
                           required 
                         />
