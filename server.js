@@ -15,7 +15,8 @@ const corsOptions = {
 app.use(cors(corsOptions));
 app.use(express.json());
 app.use("/", router);
-app.listen(8080, () => console.log("Servidor corriendo"));
+const PORT = process.env.PORT || 8080;
+app.listen(PORT, () => console.log("Servidor corriendo"));
 
 const contactEmail = nodemailer.createTransport({
   service: 'gmail',
