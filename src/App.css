@@ -280,6 +280,9 @@ span.navbar-text {
 .txt-rotate > .wrap {
   border-right: 0.08em solid black
 }
+.contact-link {
+  text-decoration: none;
+}
 /************ Projects Css ************/
 .project {
   padding: 80px 0;
