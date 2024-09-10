@@ -19,6 +19,7 @@ export const Projects = () => {
       title: "Tecnologías",
       description: "HTML, CSS, javaScript",
       imgUrl: projImg1,
+      url:"https://github.com/DamGM/plataforma_universae",
     
     },
     {
@@ -30,22 +31,26 @@ export const Projects = () => {
       title: "Tecnologías",
       description: "React,Boostrap , Supabase",
       imgUrl: projImg3,
+      url:"https://github.com/DamGM/TIENDA_CURSOS_FRONT",
     
     },
     {
       title: "Tecnologías",
       description: "React",
       imgUrl: projImg4,
+      url:"https://github.com/DamGM/react_cards",
     },
     {
       title: "Tecnologías",
       description: "HTML,CSS,Boostrap",
       imgUrl: projImg5,
+      url:"https://github.com/DamGM/dance_connection",
     },
     {
       title: "Tecnologías",
       description: "Vue.js",
       imgUrl: projImg6,
+      url:"https://github.com/DamGM/events_app",
     },
     {
       title: "Tecnologías",

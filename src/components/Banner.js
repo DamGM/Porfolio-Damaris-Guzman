@@ -54,11 +54,21 @@ export const Banner = () => {
                   <span className="tagline">Bienvenido a mi Portfolio</span>
                   <h1>{`Hola! Soy Dámaris`}</h1>
                   <h1><span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer"]'><span className="wrap">{text}</span></span></h1>
-                  <p>Profesional del desarrollo web con un sólido trasfondo en el ámbito de la salud.
-                    Con formación en enfermería e higiene dental, y una entusiasta de la creatividad y la tecnología</p>
+                  <p>"Empecé mi camino en el mundo de la tecnología hace unos años de forma autodidacta. Al principio lo tenía como un hobby, 
+                    pero en 2023 decidí formalizar mis conocimientos estudiando Desarrollo Web. Siempre he sentido una gran pasión por el diseño 
+                    y todo lo relacionado con la creatividad, por lo que encontrar una disciplina que uniera ambos mundos, diseño y tecnología, 
+                    me pareció la opción perfecta.
+                  </p>
+                  <p>
+                    Aunque mi formación inicial fue en el ámbito de la salud, siendo Técnico en Higiene Bucodental y habiendo cursado el 
+                    Grado de Enfermería en la Universidad de Sevilla, decidí dar un giro a mi carrera profesional. Esta transición refleja 
+                    mi deseo de combinar creatividad y tecnología para construir soluciones innovadoras y útiles. El mundo del desarrollo 
+                    web me brinda la oportunidad de aplicar estas habilidades en proyectos concretos que tienen un impacto directo, y es 
+                    algo que me entusiasma profundamente."
+                  </p>
                   <a
                     href="mailto:dguzmar@gmail.com"
-                    className="contact-link" 
+                    className="contact-link"
                     onMouseEnter={() => setIsHovered(true)}
                     onMouseLeave={() => setIsHovered(false)}
                   >
@@ -70,12 +80,10 @@ export const Banner = () => {
             </TrackVisibility>
           </Col>
           <Col xs={12} md={6} xl={5}>
-            <TrackVisibility>
-              {({ isVisible }) =>
-                <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
-                  <img src={headerImg} alt="Header Img" />
-                </div>}
-            </TrackVisibility>
+
+            <div className="">
+              <img src={headerImg} alt="Header Img" />
+            </div>
           </Col>
           <Col xs={12} md={6} xl={12} className="centered-button">
             <a href="/D%C3%A1marisGuzm%C3%A1n.Cv%20(1).pdf" download="Damaris_CV.pdf" style={{ textDecoration: 'none' }}>

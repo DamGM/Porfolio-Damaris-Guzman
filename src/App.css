@@ -218,12 +218,13 @@ span.navbar-text {
   color:#121212;
 }
 .banner p {
-  color: black;
+  color: #333;
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
   width: 96%;
 }
+
 .banner button {
   color: black;
   font-weight: 700;
@@ -243,7 +244,9 @@ span.navbar-text {
   margin-left: 25px;
 }
 .banner img {
-  animation: updown 3s linear infinite;
+  width: 100%; 
+  padding-top:20%;
+  border-radius: 10px;
 }
 .centered-button {
   display: flex;
@@ -394,12 +397,21 @@ span.navbar-text {
   font-weight: 700;
   letter-spacing: 0.8px;
   line-height: 1.1em;
+  color: #000; /* Color negro para el título y la descripción */
 }
 .proj-txtx span {
   font-style: italic;
   font-weight: 400;
   font-size: 15px;
   letter-spacing: 0.8px;
+  color: #000; /* Color negro para el título y la descripción */
+}
+a {
+  text-decoration: none; /* Quita el subrayado de todo el enlace */
+}
+
+a:hover {
+  text-decoration: none; /* Evita que aparezca el subrayado al pasar el mouse */
 }
 .background-image-right {
   top: 20%;
@@ -444,7 +456,7 @@ span.navbar-text {
 
 /************ Skills Css ************/
 .skill {
-  padding: 0 0 50px 0;
+  padding: 0 0 20px 0;
   position: relative;
 }
 .skill-bx {
@@ -452,7 +464,7 @@ span.navbar-text {
   border-radius: 64px;
   text-align: center;
   padding: 60px 50px;
-  margin-top: -60px;
+  margin-top: 50px;
 }
 .skill h2 {
 	font-size: 45px;
