@@ -48,7 +48,7 @@ export const Contact = () => {
       return;
     }
 
-    let response = await fetch("https://porfolio-damaris-guzman.vercel.app/api/server", {
+    let response = await fetch("/api/server", {
       method: "POST",
       headers: {
         "Content-Type": "application/json;charset=utf-8",
