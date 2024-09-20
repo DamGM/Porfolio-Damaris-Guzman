@@ -7,7 +7,7 @@ Este repositorio ha sido creado com React:
 react    typescript    boostrap    minimalistic    responsive
 
 Has click en el siguiente enlace para entrar a la web: 
- [visita la web]([https://porfolio-damaris-guzman.vercel.app/](https://porfolio-damaris-guzman.vercel.app/)) 
+ [visita la web](https://porfolio-damaris-guzman.vercel.app/)
 
 
 
