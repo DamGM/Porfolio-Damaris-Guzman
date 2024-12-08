@@ -24,8 +24,9 @@ export const Projects = () => {
     },
     {
       title: "Tecnologías",
-      description: "React+vite, Node.js+express, MongoDB, Boostrap",
+      description: "React, Boostrap",
       imgUrl: projImg2,
+      url:"https://furia-page.vercel.app",
     },
     {
       title: "Tecnologías",
