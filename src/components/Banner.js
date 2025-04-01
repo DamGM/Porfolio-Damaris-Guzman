@@ -86,7 +86,7 @@ export const Banner = () => {
             </div>
           </Col>
           <Col xs={12} md={6} xl={12} className="centered-button">
-            <a href="/D%C3%A1marisGuzm%C3%A1n.Cv%20(1).pdf" download="Damaris_CV.pdf" style={{ textDecoration: 'none' }}>
+            <a href="/D%C3%A1marisGuzm%C3%A1n.Cv%20(2).pdf" download="Damaris_CV.pdf" style={{ textDecoration: 'none' }}>
               <button className="download-button">Descarga CV</button>
             </a>
           </Col>
